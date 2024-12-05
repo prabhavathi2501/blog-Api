@@ -7,8 +7,7 @@
     "node": "v18.18.0"
   },
   "scripts": {
-    "start": "node index.jsb",
-    "dev": "nodemon index.js"
+  
   },
   "author": "prabha",
   "license": "ISC",
