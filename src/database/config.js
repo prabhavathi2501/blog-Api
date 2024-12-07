@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-const connectDB= async()=>{
+const connectDB= async(req,res)=>{
 
     try {
        await mongoose.connect(`${process.env.dbUrl}/${process.env.dbName}`);
